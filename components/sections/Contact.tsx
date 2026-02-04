@@ -55,7 +55,7 @@ export default function Contact() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="text-lg text-gray-300 text-center mb-12">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -42,7 +42,7 @@ export default function About() {
           </div>
 
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
-            I'm a passionate <span className="gradient-text font-semibold">AI/ML Engineer</span> and{" "}
+            I&apos;m a passionate <span className="gradient-text font-semibold">AI/ML Engineer</span> and{" "}
             <span className="gradient-text font-semibold">Data Science</span> researcher at IIIT Nagpur, specializing in
             building production-grade intelligent systems that solve complex real-world problems.
           </p>
@@ -55,7 +55,8 @@ export default function About() {
           </p>
           <div className="p-4 rounded-lg bg-black/20 border-l-4 border-purple-start mb-6">
             <p className="text-sm text-gray-400 font-mono leading-relaxed">
-              <span className="text-purple-start">//</span> Current Research: Deepfake detection, LLM hallucination mitigation, 
+              <span className="text-purple-start">//</span>{" "}
+              Current Research: Deepfake detection, LLM hallucination mitigation, 
               autonomous data science agents, and explainable AI systems.
             </p>
           </div>
