@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { GraduationCap, Briefcase, Calendar } from "lucide-react";
+import { GraduationCap, Briefcase, Calendar, Trophy } from "lucide-react";
 
 const timelineItems = [
   {
@@ -27,6 +27,24 @@ const timelineItems = [
       "RAG success 92%",
       "−0.7s latency",
     ],
+    color: "from-purple-end to-purple-start",
+  },
+  {
+    type: "achievement",
+    icon: Trophy,
+    title: "Winner — UI to Code Hackathon",
+    organization: "IIIT Nagpur",
+    period: "2024",
+    details: "Winner — UI to Code Hackathon, IIIT Nagpur",
+    color: "from-purple-start to-purple-end",
+  },
+  {
+    type: "achievement",
+    icon: Trophy,
+    title: "Winner — Hackwise Hackathon",
+    organization: "IIM Indore",
+    period: "2024",
+    details: "Winner — Hackwise Hackathon, IIM Indore",
     color: "from-purple-end to-purple-start",
   },
 ];
